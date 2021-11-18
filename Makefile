@@ -42,3 +42,6 @@ release:
 
 clean:
 	rm -rf openshift-mirror-registry* image-archive.tar
+
+test-offline-zip:
+    @echo "Executing Test"
